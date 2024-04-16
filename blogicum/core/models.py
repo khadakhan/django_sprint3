@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class PublishedDatedModel(models.Model):
+class IsPublishedCreatedAt(models.Model):
     """Абстрактная модель. Добавляет флаг is_published.
     и дату создания записи.
     """
